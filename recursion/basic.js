@@ -36,3 +36,13 @@ function digitOfNumber(n) {
     return n + 1;
 }
 
+function factorial(n){
+    if(n === 1){
+        return n;
+    }
+    if(n === 0){
+        return 1;
+    }
+    n *=  factorial(n - 1);
+    return n ;
+}
