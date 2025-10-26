@@ -31,7 +31,8 @@ function digitOfNumber(n) {
         return  n;
     }
     // n / 10 will reduce and math.floor will remove the decimal points
-    // so before recursive call will reduce and after recursive call will
+    // so before recursive call will reduce and after recursive call will count the digits
     n = digitOfNumber(Math.floor(n / 10));
     return n + 1;
 }
+
