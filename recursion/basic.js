@@ -46,3 +46,19 @@ function factorial(n){
     n *=  factorial(n - 1);
     return n ;
 }
+
+function fibRec(n){
+    // multiple rec calls per function. stack works from left go to bottom of bottom and then right
+    //  okay setting base case as  0 and 1 , so fib recursion reaches it's end point and from there builds on top of it
+    if(n === 0)return 0;
+    if(n === 1)return 1;
+
+    // n - 1 => if n = 4 (given) n(4) = n(3) + n(2)
+    // then recursion works such that if n(3), then it must be from n(2) - n(1) and so on.
+    // simple adding the last 2 numbers to give the result
+    // but not any numbers at base it must be started with 0 and 1 and that our base case.
+
+    n = fibRec(n - 1) + fibRec(n - 2);
+    return n ;
+}
+

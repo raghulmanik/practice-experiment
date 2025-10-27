@@ -39,3 +39,13 @@ function fibWhileLoop(n){
     }
     return ans;
 }
+
+function fibRecursion(n){
+
+    if(n === 0) return 0;
+    if(n === 1) return 1;
+
+    n = fibRecursion(n - 1) + fibRecursion(n - 2);
+
+    return n;
+}
