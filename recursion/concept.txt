@@ -1,0 +1,20 @@
+RECURSION IS LIKE A SPRING.
+
+EACH FUNCTION MAKES COPY OF IT'S OWN PARAMETER
+
+function(n){ <----------------------------------.
+                                               |
+    baseCondtion                               |
+                                               |
+    recursiveCall(n - 1) AT EVERY N - 1 STEP. ->  so at every recursion step : n - 1 will be it's original n.
+
+}
+
+TWO METHODS
+1. ACTION RECURSION
+2. VALUE RECURSION.
+
+1. ACTION RECURSION :
+                    NO NEED TO MAINTAIN ANY RETURN VALUE .
+2. VALUE RECURSION :
+                    BUILD RESULT OVERTIME, AND RETURN SOMETHING.

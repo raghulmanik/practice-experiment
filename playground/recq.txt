@@ -1,0 +1,79 @@
+🧩 PHASE 1 — Core Accumulation Recursion (Sum/Product/Count)
+
+Goal: solidify base-return unwinding logic
+
+sumArray(n) → return total sum
+
+prodArray(n) → return total product
+
+countEven(n) → count even numbers
+
+countOdd(n) → count odd numbers
+
+countGreaterThanX(n, x) → count numbers > x
+
+findMax(n) → return max element
+
+findMin(n) → return min element
+
+🧩 PHASE 2 — Printing vs Returning
+
+Goal: understand “when code before/after recursion executes”
+
+printForward(n) → print elements in forward order
+
+printBackward(n) → print elements in reverse order
+
+printEverySecond(n) → print every 2nd element
+
+printEvenIndex(n) → print only even indices
+
+printArrayIndices(n) → print “index → value” pairs
+
+🧩 PHASE 3 — Dual-variable Recursion
+
+Goal: handle left/right traversal patterns (foundation of 2-pointer + divide-and-conquer)
+
+printBoth(i, j) → print arr[i] and arr[j] moving inward
+
+isPalindrome(i, j) → check if array is palindrome
+
+reverseArray(i, j) → swap recursively
+
+sumRange(i, j) → sum elements between i and j
+
+countPairs(i, j) → count pairs whose sum == target
+
+🧩 PHASE 4 — Build Structures via Recursion
+
+Goal: recursion that returns new arrays/strings
+
+copyArray(n) → return a copy recursively
+
+reverseArrayReturn(n) → return reversed array
+
+filterEven(n) → return new array of only evens
+
+mapDouble(n) → return array with all elements * 2
+
+concatString(n) → join all elements into a string recursively
+
+🧩 PHASE 5 — Recursive Logic Challenges
+
+Goal: build pattern-recognition muscle (real recursion problems)
+
+sumOfDigits(n) → sum digits of a number
+
+factorial(n) → product of numbers 1…n
+
+fibonacci(n) → nth Fibonacci
+
+power(x, n) → xⁿ recursively
+
+countZeros(n) → count zeros in a number
+
+sumNestedArray(arr) → handle arrays inside arrays (deep recursion)
+
+flattenArray(arr) → flatten nested arrays recursively
+
+binarySearchRec(arr, target, low, high) → core recursion used in algorithms
