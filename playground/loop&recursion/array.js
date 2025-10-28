@@ -1,3 +1,19 @@
+function printArrForLoop(arr){
+    for(let i = 0 ; i < arr.length; i++){
+        console.log(arr[i]);
+    }
+}
+
+function printArrWhileLoop(arr){
+    let i = 0;
+    while(i < arr.length){
+        console.log(arr[i++]);
+    }
+}
+
+// recursion
+
+
 function printForward(n){
 
     //  explain, input = arr.length (therefore, reducing index value until 0)
